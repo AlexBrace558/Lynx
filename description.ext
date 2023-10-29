@@ -1,0 +1,41 @@
+author			= "Tiber Brutus";
+onLoadName		= "Operation Lynx";
+onLoadMission	= "Commando unit Robin is deployed deep behind enemy lines.";
+loadScreen		= "test.jpg";
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title = "Operation Success";
+		subtitle = "";
+		description = "With the destruction of the weapons factories and the Royalist airfield, task force Robin has struck a deadly blow to king Valeria II’s regime. With the Royalist Army losing such a vital facility and a number of valuable military assets at the hands of a single commando unit, neighboring countries like Esmia have been emboldened to provide more support to the Parliamentarian faction. And whilst the Royalist Army desperately lunges out to find the culprits of the attack, the Parliamentarians can now begin to put the finishing touches to their true plan; the rumored counter offensive that will bring this war to a just end!";
+		pictureBackground = "test.jpg";
+	};
+    class End2
+	{
+		title = "Operation Failed";
+		subtitle = "";
+		description = "";
+		pictureBackground = "";
+	};
+};
+
+class CfgSounds
+
+{
+
+ tracks[]={};
+
+ class Track01
+ {
+
+  name = "Track01";
+
+  sound[] = {"\brief.wav", 250, 1.0};
+
+  titles[] = {};
+
+ };
+
+};
